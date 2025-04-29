@@ -12,6 +12,27 @@ export function Home() {
         and modern tools.
       </p>
 
+      <div className="flex gap-4">
+        
+        <a
+          href="/ShivakshJohar_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-lg shadow-md 
+          hover:bg-yellow-300 transition duration-300">
+          View Resume
+        </a>
+
+        <a
+          href="/ShivakshJohar_Resume.pdf"
+          download
+          className="inline-block bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-lg shadow-md 
+          hover:bg-yellow-300 transition duration-300">
+          Download Resume
+        </a>
+        
+      </div> 
+
     </section>
   );
 }
